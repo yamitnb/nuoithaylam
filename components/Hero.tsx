@@ -142,7 +142,7 @@ export const Hero: React.FC = () => {
                  >
                     <div className="absolute inset-0 rounded-3xl border-2 border-blue-100 group-hover:border-blue-300 transition-colors pointer-events-none" />
                     <img 
-                      src="https://img.vietqr.io/image/TCB-1801958888-compact2.png?amount=&addInfo=Nuoi%20Toi&accountName=PHAM%20THANH%20LAM"
+                      src="https://img.vietqr.io/image/TCB-1801958888-print.png?amount=&addInfo=Nuoi%20Toi&accountName=PHAM%20THANH%20LAM"
                       alt="VietQR TechcomBank"
                       className="w-full h-auto rounded-xl object-contain"
                     />
