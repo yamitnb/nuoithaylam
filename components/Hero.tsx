@@ -28,7 +28,7 @@ export const Hero: React.FC = () => {
     []
   );
   const [thankYou, setThankYou] = React.useState<string | null>(null);
-  const accountNumber = '334218';
+  const accountNumber = '1801958888';
   const [copied, setCopied] = React.useState(false);
   const [isMobile, setIsMobile] = React.useState(false);
 
@@ -54,7 +54,7 @@ export const Hero: React.FC = () => {
     }
   }, []);
 
-  const qrLink = 'vietqr://pay?ba=334218@mb';
+  const qrLink = 'vietqr://pay?ba=1801958888@tcb';
 
   const handleQrClick = (e: React.MouseEvent<HTMLAnchorElement>) => {
     if (!isMobile) {
